@@ -1,0 +1,22 @@
+main/master branch production
+# local m main branch ko clone krke then dev brnch m push krenge
+
+# source control 3rd icon from top vs code
+
+git checkout main
+git checkout -b new-branch
+
+# branch name is JIRA ID
+git pull
+git add.
+# git add index.js    for particular file only
+# staging
+git commit -m "featue added"
+# -n at the end for linting removing potentioal red line bugs
+git push origin new-branch
+git branch -D branch-name
+# to delete a branch
+git merge main 
+# to merge all new changes form main branch to out current branch
+
+
